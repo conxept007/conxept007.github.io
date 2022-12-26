@@ -229,3 +229,25 @@ footer {
     width: 60%;
     margin: 0.5em auto;
 }
+
+
+/* For Sizes of Devices. This focuses on Size 480 ie For Phones */
+
+@media only Screen and (max-width: 480px), (orientation: portrait) {
+
+    .Bigsection {
+        display: block;
+    }
+
+    .sectionA {
+        margin-left: 5%;
+    }
+
+    .arrows a {
+        margin: 0 0.1em;
+    }
+
+    footer {
+        display: block;
+    }
+}

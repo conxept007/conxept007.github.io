@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 18px;
+}
+body {
+    background-color: rgb(190, 223, 236);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(85, 22, 32);
+    color: white;
+    border-radius: 1% 1% 1% 50%;
+    padding: 7em 0 5em 0;
+}
+
+nav {
+    background-color: rgb(85, 22, 32);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: cursive;
+    padding: 1.5em;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: rgb(163, 146, 146);
+}
+
+nav ul li {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 2em;
+}
+
+.arrows {
+    font-size: 2rem;
+    padding: 0em;
+}
+
+.arrows a {
+    text-decoration: none;
+    color: black;
+    margin: 0 3em;
+}
+
+.arrows a:hover {
+    color: blue;
+}
+
+
+
+.sectionA {
+    width: 70%;
+    margin-left: 30%;
+    height: auto;
+}
+
+.sectionB {
+    width: 55%;
+    margin: auto;
+}
+
+.sectionA a , .sectionB a{
+    text-decoration: none;
+    color: black;
+}
+
+.formA{
+    background-color: rgb(163, 217, 238);
+    border: 1px solid rgb(85, 22, 32);
+    border-radius: 5%;
+    border-left: rgb(7, 7, 145);
+    width: 100%;
+    height: auto;
+    margin: 2em auto;
+    padding: 0.5em 0.5em;
+}
+
+.formA input{
+    width: 80%;
+    margin: 4em auto;
+    padding: 0em;
+}
+
+.Bigbox {
+    background-color: white;
+    border: 1px solid rgb(85, 22, 32);
+    border-radius: 5%;
+    border-left: rgb(7, 7, 145);
+    width: 100%;
+    height: auto;
+    margin: 2em auto;
+    padding: 0.5em 0.5em;
+}
+
+.Bigbox hr, .Bigbox h4, .Bigbox h5 {
+    width: 80%;
+    margin: 0.5em auto;
+    padding: 0em;
+}
+
+.Bigbox img {
+    width: 70%;
+    height: auto;
+}
+
+.Bigbox:hover {
+    background-color: rgb(85, 22, 32);
+    color: white;
+    cursor: pointer;
+    
+}
+
+aside {
+    font-size: 2em;
+    font-weight: 900;
+    color: rgb(85, 22, 32);
+    position: sticky;
+    bottom: 1em;
+    margin-left: 80%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr;
+    text-align: left;
+    padding: 1em;
+}
+
+.footer1 {
+    margin: 0em auto;
+    padding: 1em;
+}
+
+.footer1 li {
+    padding: 0.25em 0;
+}
+
+.name2 {
+    font-size: 2.5em;
+    font-family: cursive;
+    margin: 20% 0;
+}
+
+
+
+/* CCI CODING FOR CCI FOLDER ALL IN ONE PLACE ABEG */
+.Bigsection {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    margin-top: 2em;
+}
+
+
+
+
+/* CCI CODING 2019 FOLDER ALL IN ONE PLACE ABEG */
+.Recbox {
+    background-color: white;
+    border: 1px solid rgb(85, 22, 32);
+    border-radius: 0.5%;
+    width: 100%;
+    height: 50px;
+    margin: 2em auto;
+    padding: 0.5em 0.5em;
+}
+
+.Recbox img {
+    float: left;
+    width: 2em;
+    height: 2em;
+}
+
+.Recbox:hover {
+    background-color: rgb(85, 22, 32);
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+/* CCI MONTHLY CODING ALL IN ONE PLACE ABEG */
+.Sqbox {
+    background-color: white;
+    border: 1px solid rgb(85, 22, 32);
+    border-radius: 2%;
+    border-top-left-radius: 25%;
+    width: 80%;
+    height: auto;
+    margin: 2em auto;
+    padding: 0em 0.5em;
+    font-size: auto;
+}
+
+.Sqbox img {
+    width: 70%;
+    height: auto;
+}
+
+.Sqbox:hover {
+    background-color: rgb(85, 22, 32);
+    color: white;
+    cursor: pointer;
+    font-size: 1.15em;
+}
+
+.Sqbox hr, .Sqbox p {
+    width: 80%;
+    margin: 0.1em auto;
+    padding: 0em;
+}
+
+.Play {
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 60%;
+    margin: 0.5em auto;
+}

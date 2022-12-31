@@ -45,6 +45,10 @@ nav ul li {
     margin-right: 2em;
 }
 
+.name {
+    margin-bottom: 1em;
+}
+
 hr {
     color: #ddd;
 }

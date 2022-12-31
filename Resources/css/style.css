@@ -8,20 +8,25 @@ html {
     font-size: 18px;
 }
 body {
-    background-color: rgb(190, 223, 236);
+    /*background-color: rgb(190, 223, 236);*/
+    background-color: #F5F5F5;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
-    background-color: rgb(85, 22, 32);
+    /*background-color: rgb(85, 22, 32);*/
+    background-color: #222;
     color: white;
     border-radius: 1% 1% 1% 50%;
     padding: 7em 0 5em 0;
+    
+    vertical-align: baseline;
 }
 
 nav {
-    background-color: rgb(85, 22, 32);
+    /*background-color: rgb(85, 22, 32);*/
+    background-color: #222;
     position: fixed;
     top: 0;
     width: 100%;
@@ -40,6 +45,10 @@ nav ul li {
     margin-right: 2em;
 }
 
+hr {
+    color: #ddd;
+}
+
 .arrows {
     font-size: 2rem;
     padding: 0em;
@@ -55,6 +64,9 @@ nav ul li {
     color: blue;
 }
 
+main {
+    margin-top: 2.5em;
+}
 
 
 .sectionA {
@@ -64,7 +76,7 @@ nav ul li {
 }
 
 .sectionB {
-    width: 55%;
+    width: 70%;
     margin: auto;
 }
 
@@ -73,28 +85,52 @@ nav ul li {
     color: black;
 }
 
-.formA{
-    background-color: rgb(163, 217, 238);
+.formA {
+    /*background-color: rgb(163, 217, 238);*/
+    background-color: #FF6200;
     border: 1px solid rgb(85, 22, 32);
     border-radius: 5%;
-    border-left: rgb(7, 7, 145);
     width: 100%;
     height: auto;
     margin: 2em auto;
-    padding: 0.5em 0.5em;
+    padding: 0em 2em;
 }
 
-.formA input{
-    width: 80%;
-    margin: 4em auto;
-    padding: 0em;
+.formA h4 {
+    margin-top: 2em;
+    font-size: 1.5em;
+}
+
+.formB {
+    width: 100%;
+    margin: 3em auto;
+    text-align: start;
+}
+
+.formSubmit {
+    width: 100%;
+    margin: 3em auto;
+    padding: 1em;
+    font-weight: 600;
+    font-size: large;
+}
+
+.formB input, .formB textarea {
+    border-radius: 10%;
+    padding-top: 1em;
+}
+
+.formB textarea {
+    width: 70%;
+    padding: 20%;
+    margin-left: 10%;
 }
 
 .Bigbox {
-    background-color: white;
-    border: 1px solid rgb(85, 22, 32);
+    background-color: #FFF;
+    /*border: 1px solid rgb(85, 22, 32);*/
+    border: 1px solid #ddd;
     border-radius: 5%;
-    border-left: rgb(7, 7, 145);
     width: 100%;
     height: auto;
     margin: 2em auto;
@@ -113,7 +149,8 @@ nav ul li {
 }
 
 .Bigbox:hover {
-    background-color: rgb(85, 22, 32);
+    /*background-color: rgb(85, 22, 32);*/
+    background-color: #696969;;
     color: white;
     cursor: pointer;
     
@@ -122,14 +159,24 @@ nav ul li {
 aside {
     font-size: 2em;
     font-weight: 900;
-    color: rgb(85, 22, 32);
     position: sticky;
     bottom: 1em;
-    margin-left: 80%;
+    margin: 0 5% 0 85%;
+    width: 4%;
+    background-color: #FFF;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    box-shadow: 0em 0.1em #ddd;
+    margin-bottom: 0.5em;
+}
+
+aside a {
+    text-decoration: none;
+    color: #222;
 }
 
 footer {
-    background-color: black;
+    background-color: #222;
     color: white;
     width: 100%;
     height: auto;

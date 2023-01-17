@@ -1,0 +1,365 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 18px;
+}
+body {
+    /*background-color: rgb(190, 223, 236);*/
+    background-color: #F5F5F5;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    /*background-color: rgb(85, 22, 32);*/
+    background-color: #222;
+    color: white;
+    border-radius: 1% 1% 1% 50%;
+    padding: 9em 0 5em 0;
+}
+
+nav {
+    /*background-color: rgb(85, 22, 32);*/
+    background-color: #222;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: cursive;
+    padding: 1.5em;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: rgb(163, 146, 146);
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 2em;
+}
+
+.hideMobile {
+    display: none;
+}
+
+.name {
+    margin-bottom: 1em;
+}
+
+hr {
+    color: #ddd;
+}
+
+.arrows {
+    font-size: 2rem;
+    padding: 0em;
+}
+
+.arrows a {
+    text-decoration: none;
+    color: black;
+    margin: 0 3em;
+}
+
+.arrows a:hover {
+    color: blue;
+}
+
+.Bottomarrow a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  .Bottomarrow a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+
+
+
+
+
+main {
+    margin-top: 2.5em;
+}
+
+
+.sectionA {
+    width: 70%;
+    margin-left: 30%;
+    height: auto;
+}
+
+.sectionB {
+    width: 70%;
+    margin: auto;
+}
+
+.sectionB h4 {
+    margin-bottom: 2.5em;
+}
+
+.sectionA a , .sectionB a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .formA {
+    text-align: left;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+
+
+.Bigbox {
+    background-color: #FFF;
+    /*border: 1px solid rgb(85, 22, 32);*/
+    border: 1px solid #ddd;
+    border-radius: 5%;
+    width: 100%;
+    height: auto;
+    margin: 2em auto;
+    padding: 0.5em 0.5em;
+}
+
+.Bigbox hr, .Bigbox h4, .Bigbox h5 {
+    width: 80%;
+    margin: 0.5em auto;
+    padding: 0em;
+}
+
+.Bigbox img {
+    width: 70%;
+    height: auto;
+}
+
+.Bigbox:hover {
+    /*background-color: rgb(85, 22, 32);*/
+    background-color: #696969;;
+    color: white;
+    cursor: pointer;
+    
+}
+
+aside {
+    font-size: 1.8em;
+    position: sticky;
+    bottom: 1em;
+    margin: 0 5% 0 85%;
+    width: 4%;
+    background-color: #FFF;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    box-shadow: 0em 0.1em #ddd;
+    margin-bottom: 0.5em;
+    cursor: pointer;
+}
+
+aside a {
+    text-decoration: none;
+    color: #222;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr;
+    text-align: left;
+    padding: 1em;
+}
+
+.footer1 {
+    margin: 0em auto;
+    padding: 1em;
+}
+
+.footer1 li {
+    padding: 0.25em 0;
+}
+
+.name2 {
+    font-size: 2.5em;
+    font-family: cursive;
+    margin: 20% 0;
+}
+
+
+
+/* CCI CODING FOR CCI FOLDER ALL IN ONE PLACE ABEG */
+.Bigsection {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    margin-top: 2em;
+}
+
+
+
+
+/* CCI CODING 2019 FOLDER ALL IN ONE PLACE ABEG */
+.Recbox {
+    background-color: white;
+    border: 1px solid rgb(85, 22, 32);
+    border-radius: 0.5%;
+    width: 100%;
+    height: 50px;
+    margin: 2em auto;
+    padding: 0.5em 0.5em;
+}
+
+.Recbox img {
+    float: left;
+    width: 2em;
+    height: 2em;
+}
+
+.Recbox:hover {
+    background-color: #696969;;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+/* CCI MONTHLY CODING ALL IN ONE PLACE ABEG */
+.Sqbox {
+    background-color: white;
+    border: 1px solid rgb(85, 22, 32);
+    border-radius: 2%;
+    border-top-left-radius: 25%;
+    width: 80%;
+    height: auto;
+    margin: 2em auto;
+    padding: 0em 0.5em;
+    font-size: auto;
+}
+
+.Sqbox img {
+    width: 70%;
+    height: auto;
+}
+
+.Sqbox:hover {
+    background-color: #696969;;
+    color: white;
+    cursor: pointer;
+    font-size: 1.15em;
+}
+
+.Sqbox hr, .Sqbox p {
+    width: 80%;
+    margin: 0.1em auto;
+    padding: 0em;
+}
+
+.Play {
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 60%;
+    margin: 0.5em auto;
+}
+
+
+/* For Sizes of Devices. This focuses on Size 480 ie For Phones */
+
+@media only Screen and (max-width: 480px), (orientation: portrait) {
+
+    .Bigsection {
+        display: block;
+    }
+
+    .sectionA {
+        margin-left: 5%;
+    }
+
+    .arrows a {
+        margin: 0 0.1em;
+    }
+
+    footer {
+        display: block;
+    }
+    
+    aside {
+        width: 10%;
+    }
+  
+    .formB textarea {
+        width: 98%;
+    }
+    
+    nav ul {
+        display: none;
+
+    }
+
+    nav a.Mobile-menu {
+        visibility: visible;
+    }
+
+    nav ul a {
+        color: white;
+        padding: 1em 1em;
+        text-decoration: none;
+        font-size: 1em;
+    }
+
+    nav ul a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .hideMobile {
+        display: block;
+        font-size: 1.8em;
+        
+    }
+  
+}

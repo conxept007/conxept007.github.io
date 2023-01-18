@@ -38,6 +38,13 @@ nav ul a {
     display: inline-block;
     text-decoration: none;
     margin-right: 2em;
+    padding: 0.5em;
+}
+
+nav ul a:hover{
+    background-color: #ddd;
+    color: black;
+    
 }
 
 .hideMobile {
@@ -50,21 +57,6 @@ nav ul a {
 
 hr {
     color: #ddd;
-}
-
-.arrows {
-    font-size: 2rem;
-    padding: 0em;
-}
-
-.arrows a {
-    text-decoration: none;
-    color: black;
-    margin: 0 3em;
-}
-
-.arrows a:hover {
-    color: blue;
 }
 
 .Bottomarrow a {
@@ -89,10 +81,6 @@ hr {
   }
 
 
-
-
-
-
 main {
     margin-top: 2.5em;
 }
@@ -110,7 +98,7 @@ main {
 }
 
 .sectionB h4 {
-    margin-bottom: 2.5em;
+    margin-bottom: 1.5em;
 }
 
 .sectionA a , .sectionB a{
